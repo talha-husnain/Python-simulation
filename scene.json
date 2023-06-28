@@ -1,0 +1,35 @@
+{
+    "lights": [
+      {
+        "color": [255, 0, 0],
+        "position": [250, 250],
+        "direction": [1, 0],
+        "intensity": 5,
+        "light_type": "spot"
+      }
+    ],
+    "smoke_machine": {
+      "position": [100, 100],
+      "direction": [0, 1],
+      "intensity": 5,
+      "neighborhood_type": "Moore"
+    },
+    "props_bands": [
+      {
+        "position": [50, 50],
+        "shape": [200, 200, 50, 50],
+        "color": [0, 255, 0],
+        "direction": [1, 0],
+        "velocity": 2
+      },
+      {
+        "position": [100, 100],
+        "shape": [50, 50, 100, 100],
+        "color": [0, 0, 255]
+      }
+    ],
+    "backdrop": {
+      "color": [0, 0, 0]
+    }
+  }
+  

@@ -1,0 +1,26 @@
+[
+    {
+        "time": 0,
+        "object": "light0",
+        "method": "turn_on",
+        "args": []
+    },
+    {
+        "time": 1,
+        "object": "smoke_machine",
+        "method": "start",
+        "args": []
+    },
+    {
+        "time": 2,
+        "object": "prop_band0",
+        "method": "move",
+        "args": [[1, 0, 0]]
+    },
+    {
+        "time": 3,
+        "object": "backdrop",
+        "method": "change_color",
+        "args": ["white"]
+    }
+]

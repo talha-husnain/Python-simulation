@@ -1,0 +1,39 @@
+{
+    "lights": [
+        {
+            "color": "red",
+            "position": [0, 0, 0],
+            "direction": [1, 0, 0],
+            "intensity": 0.5,
+            "light_type": "spot"
+        },
+        {
+            "color": "blue",
+            "position": [1, 0, 0],
+            "direction": [-1, 0, 0],
+            "intensity": 0.7,
+            "light_type": "spot"
+        }
+    ],
+    "smoke_machine": {
+        "position": [0, 0, 0],
+        "direction": [0, 1, 0],
+        "intensity": 0.9,
+        "neighborhood_type": "global"
+    },
+    "props_bands": [
+        {
+            "position": [0, 0, 0],
+            "shape": "rectangle",
+            "direction": [1, 0, 0],
+            "velocity": 0.1
+        },
+        {
+            "position": [0, 0, 0],
+            "shape": "circle"
+        }
+    ],
+    "backdrop": {
+        "color": "black"
+    }
+}
